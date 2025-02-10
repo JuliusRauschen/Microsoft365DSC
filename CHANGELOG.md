@@ -4,6 +4,8 @@
 
 * EXORetentionPolicyTag
   * Initial release.
+* MgPolicyAuthorizationPolicy
+  * Initial release.
 
 # 1.25.205.1
 

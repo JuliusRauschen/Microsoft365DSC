@@ -1,0 +1,32 @@
+﻿{
+    "resourceName": "MgPolicyAuthorizationPolicy",
+    "description": "Gets / Sets the properties of an authorizationPolicy object.",
+    "roles": {
+        "read": [
+        ],
+        "update": [
+        ]
+    },
+    "permissions": {
+        "graph": {
+            "delegated": {
+                "read": [
+                ],
+                "update": [
+                ]
+            },
+            "application": {
+                "read": [
+                    {
+                        "name": "Policy.Read.All"
+                    }
+                ],
+                "update": [
+                    {
+                        "name": "Policy.ReadWrite.Authorization"
+                    }
+                ]
+            }
+        }
+    }
+}
